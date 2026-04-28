@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="min-h-screen bg-black text-white selection:bg-white selection:text-black">
       {/* Navigation / Header */}
-      <header className="fixed top-0 left-0 w-full px-4 py-5 sm:px-8 sm:py-6 md:px-12 md:py-8 lg:px-20 lg:py-10 flex justify-between items-center z-50 mix-blend-difference">
+      <header className="fixed top-0 left-0 w-full px-4 py-5 sm:px-8 sm:py-6 md:px-12 md:py-8 lg:px-20 lg:py-10 flex justify-between items-center z-50 mix-blend-difference transform-gpu">
         <h2 className="font-serif text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold tracking-wide">Fedor Zaitsev</h2>
         <a
           href="https://www.skema.edu/en"
@@ -29,14 +29,14 @@ function App() {
           </div>
 
           {/* Abstract Design Element / Accent */}
-          <div className="absolute right-0 top-1/4 w-1/2 h-1/2 bg-white/5 blur-[120px] rounded-full pointer-events-none"></div>
+          <div className="absolute right-0 top-1/4 w-1/2 h-1/2 bg-white/5 blur-[60px] md:blur-[120px] rounded-full pointer-events-none transform-gpu will-change-transform"></div>
         </section>
 
         {/* About Section */}
         <section className="relative py-20 sm:py-32 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 bg-white text-black">
           <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12 sm:gap-16 md:gap-24">
             <div className="w-full lg:w-1/2 max-w-md lg:max-w-none mx-auto lg:mx-0">
-              <div className="aspect-[3/4] overflow-hidden bg-gray-200 rounded-lg sm:rounded-none">
+              <div className="aspect-[3/4] overflow-hidden bg-gray-200">
                 <img
                   src="/img/fedor.jpg"
                   alt="Fedor Zaitsev"
