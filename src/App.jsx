@@ -10,7 +10,7 @@ function App() {
           href="https://www.skema.edu/en"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-sans text-[10px] sm:text-xs md:text-sm lg:text-base uppercase tracking-widest text-gray-300 hover:text-white transition-colors border-b border-transparent hover:border-white/40 pb-1"
+          className="font-sans text-[10px] sm:text-xs md:text-sm lg:text-base uppercase tracking-widest text-gray-300 hover:text-white transition-colors border-b border-transparent hover:border-white/40 py-2 px-3 -my-2 -mr-3"
         >
           SKEMA x EADA
         </a>
@@ -65,16 +65,16 @@ function App() {
       <footer className="py-12 sm:py-20 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 flex flex-col md:flex-row justify-between items-center gap-6 sm:gap-8 border-t border-white/10">
         <h3 className="font-serif text-xl sm:text-2xl xl:text-3xl text-center md:text-left">Связь со мной</h3>
 
-        <div className="flex flex-col sm:flex-row flex-wrap items-center gap-4 sm:gap-6 md:gap-8 font-sans text-sm sm:text-base xl:text-lg">
-          <a href="mailto:fedor.zaitsev@skema.edu" className="hover:text-gray-300 transition-colors">
+        <div className="flex flex-col sm:flex-row flex-wrap items-center gap-2 sm:gap-6 md:gap-8 font-sans text-sm sm:text-base xl:text-lg">
+          <a href="mailto:fedor.zaitsev@skema.edu" className="hover:text-gray-300 transition-colors p-3 sm:p-0">
             <span>fedor.zaitsev@skema.edu</span>
           </a>
           <span className="hidden sm:inline text-white/20">|</span>
-          <a href="https://wa.me/34611883206" className="hover:text-gray-300 transition-colors">
+          <a href="https://wa.me/34611883206" className="hover:text-gray-300 transition-colors p-3 sm:p-0">
             <span>WhatsApp</span>
           </a>
           <span className="hidden sm:inline text-white/20">|</span>
-          <a href="https://www.linkedin.com/in/fedor-zaitsev-643316404/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
+          <a href="https://www.linkedin.com/in/fedor-zaitsev-643316404/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors p-3 sm:p-0">
             <span>LinkedIn</span>
           </a>
         </div>
